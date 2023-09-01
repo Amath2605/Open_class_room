@@ -1,7 +1,44 @@
+/* Importer les polices Montserrat et Manrope depuis Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Manrope:wght@400;700&display=swap');
+
+/* Appliquer les styles aux éléments HTML */
+body {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1em;
+}
+
 a {
-    color: black;
-  }
-  
-  .important {
-    color: #a5b4fc;
-  }
+  color: black;
+  text-decoration: none;
+  font-size: 1em;
+  font-family: 'Manrope', sans-serif;
+}
+
+em {
+  color: #a5b4fc;
+  font-style: normal;
+  font-family: 'Manrope', sans-serif;
+}
+
+h1 {
+  font-size: 3.5em;
+  color: #a5b4fc;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-size: 1.1em;
+  font-family: 'Manrope', sans-serif;
+}
+
+ul, ol {
+  font-size: 1em;
+  font-family: 'Manrope', sans-serif;
+}
+
+/* Remplacement des spans par des em avec le même style */
+span.important {
+  color: #a5b4fc;
+  font-style: normal;
+  font-family: 'Manrope', sans-serif;
+}
