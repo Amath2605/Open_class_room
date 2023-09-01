@@ -1,0 +1,22 @@
+/* Appliquer la couleur noire à tous les liens */
+a {
+    color: black;
+  }
+  
+  /* Mettre le logo et les liens de navigation en haut des pages */
+  .header {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  /* Mettre les différents logos en bas des pages */
+  .footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Appliquer la couleur spécifiée au mot "professionnalisme" et au mot "passion" */
+  .introduction span {
+    color: #A5B4FC;
+  }
+  
