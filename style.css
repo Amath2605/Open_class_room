@@ -1,44 +1,33 @@
-/* Importer les polices Montserrat et Manrope depuis Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Manrope:wght@400;700&display=swap');
-
-/* Appliquer les styles aux éléments HTML */
-body {
-  font-family: 'Manrope', sans-serif;
-  font-size: 1em;
-}
-
-a {
-  color: black;
-  text-decoration: none;
-  font-size: 1em;
-  font-family: 'Manrope', sans-serif;
-}
-
-em {
-  color: #a5b4fc;
-  font-style: normal;
-  font-family: 'Manrope', sans-serif;
-}
-
-h1 {
-  font-size: 3.5em;
-  color: #a5b4fc;
-  font-family: 'Montserrat', sans-serif;
-}
-
-p {
-  font-size: 1.1em;
-  font-family: 'Manrope', sans-serif;
-}
-
-ul, ol {
-  font-size: 1em;
-  font-family: 'Manrope', sans-serif;
-}
-
-/* Remplacement des spans par des em avec le même style */
-span.important {
-  color: #a5b4fc;
-  font-style: normal;
-  font-family: 'Manrope', sans-serif;
-}
+/* Changer les couleurs de fond */
+/* Div avec les liens en haut des pages et le pied de page */
+header, footer {
+    background-color: white;
+  }
+  
+  /* Cœur de la page */
+  main {
+    background-color: #1F2039;
+  }
+  
+  /* Changer les couleurs de texte */
+  /* Liens en tête et pied de page */
+  header a, footer a {
+    color: #242424;
+  }
+  
+  /* Paragraphes, listes et titres H2 */
+  p, ul, ol, h2 {
+    color: #F9F8FF;
+    background-color: #1F2039; /* Fond bleu foncé */
+  }
+  
+  /* Styles pour les liens hypertextes spécifiques */
+  a.gradient-link {
+    background: linear-gradient(to right, #8E86B5, #ACAEED);
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
